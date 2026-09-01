@@ -1,6 +1,19 @@
-#include <Studio.h>
-int main(){
-    printf("Soma: %f\n", Soma(5,2));
-    printf("Subtração: %f\n", subtracao(5,2));
-    return 0;
+import java.util.Scanner;
+
+public class Calculadora {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Digite o primeiro número: ");
+        double n1 = sc.nextDouble();
+
+        System.out.print("Digite o segundo número: ");
+        double n2 = sc.nextDouble();
+
+        
+
+        sc.close();
+    }
 }
