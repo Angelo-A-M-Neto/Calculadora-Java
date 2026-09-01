@@ -1,9 +1,18 @@
-System.out.println("Soma: " + (n1 + n2));
-        System.out.println("Subtração: " + (n1 - n2));
-        System.out.println("Multiplicação: " + (n1 * n2));
+# 🧮 Calculadora em Java
 
-        if (n2 != 0) {
-            System.out.println("Divisão: " + (n1 / n2));
-        } else {
-            System.out.println("Divisão: não é possível dividir por zero.");
-        }
+Uma calculadora simples desenvolvida em **Java** para realizar operações matemáticas básicas.
+
+## 📌 Funcionalidades
+
+* ➕ Adição
+* ➖ Subtração
+* ✖️ Multiplicação
+* ➗ Divisão
+* Entrada de dois números pelo usuário
+* Exibição do resultado da operação
+
+## 💻 Tecnologias utilizadas
+
+* **Java**
+* `Scanner` para entrada de dados
+
