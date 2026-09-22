@@ -9,6 +9,7 @@ public class Calculadora {
         System.out.print("Digite o primeiro número: ");
         double n1 = sc.nextDouble();
 
+          System.out.println("Multiplicação: " + (n1 * n2));
         System.out.print("Digite o segundo número: ");
         double n2 = sc.nextDouble();
         sc.close();
